@@ -1,0 +1,52 @@
+[
+    {
+        "name": "pkpass/pkpass",
+        "version": "v1.2.4",
+        "version_normalized": "1.2.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tschoffelen/php-pkpass.git",
+            "reference": "ff882482e7950d205681d5b6d7eed1e9a5f72b59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tschoffelen/php-pkpass/zipball/ff882482e7950d205681d5b6d7eed1e9a5f72b59",
+            "reference": "ff882482e7950d205681d5b6d7eed1e9a5f72b59",
+            "shasum": ""
+        },
+        "require": {
+            "ext-zip": "*",
+            "php": ">=5.4"
+        },
+        "time": "2019-08-09T18:12:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PKPass\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Schoffelen",
+                "email": "thomas@scholica.com",
+                "homepage": "http://thomasschoffelen.com/"
+            }
+        ],
+        "description": "PHP PKPass class for iOS Wallet",
+        "homepage": "https://github.com/tschoffelen/PHP-PKPass",
+        "keywords": [
+            "apple",
+            "ios",
+            "ipad",
+            "iphone",
+            "passbook",
+            "php",
+            "wallet"
+        ]
+    }
+]
